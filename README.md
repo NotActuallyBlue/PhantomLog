@@ -6,8 +6,6 @@
 
 Log your engine and transmission, watch live gauges on your phone, look through your logs, and set up your PhantomDASH, all from one app. Tuned or stock, it works the same.
 
-> **Coming soon.** The first release is being finished. The download will appear on the [Releases](../../releases) page.
-
 [Download](../../releases/latest) · [What it does](#what-it-does) · [What you need](#what-you-need) · [Install](#install) · [First log](#your-first-log) · [Good to know](#good-to-know) · [Credits and licences](#credits-and-licences)
 
 ## What it does
