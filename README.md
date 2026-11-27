@@ -15,8 +15,12 @@ Log your engine and transmission, watch live gauges on your phone, look through 
 * **Logging.** Records the engine (ECU) and the transmission (TCU) together into one file, with **mode 22** (any car, stock or tuned) or **HSL** (faster; needs a tune with the HSL patch). The app reads the ECU and gearbox codes and picks the matching list for your car.
 * **Up to 25 rows a second.** Engine and transmission are read side by side, so a slow gearbox does not hold the engine back.
 * **Live gauges.** Big, readable gauges with peaks and warning ranges, for when you don't have a PhantomDASH.
-* **Log viewer.** Charts, split view, scatter and heatmap, right on the phone.
-* **Your files, your way.** Logs are CSV files in the same layout as Simos.app logs, so the tools you already use open them. Share them straight from the app.
+* **Log viewer.** Charts, split view, scatter, heatmap and a road dyno, right on the phone, in metric or imperial.
+* **Analyze.** Every full-throttle pull side by side: peak power, torque and boost (averaged, so one spike doesn't set the number), the worst knock and its cylinder, lambda against target, fuel pressure against setpoint, and 0–60, 40–80 and 60–100 mph times. The strongest pull is starred. Share it as a picture or copy it as text.
+* **Compare.** Lay a second log over the first, lined up at their first pull, to see what a change did.
+* **Notes.** Add a note to any log (fuel, parts, weather) so you know what changed between two logs.
+* **Your files, your way.** Logs are CSV files in the same layout as Simos.app logs, so the tools you already use open them. Share them straight from the app, or open logs from Simos.app, Simos Tools or your PC with **Open file**.
+* **Remembers your setup.** The app reconnects to your dongle and picks the lists you chose for your car the last time.
 * **PhantomDASH settings.** Opens the dash's own settings page inside the app and joins the dash's Wi-Fi by itself (scan the dash's code once).
 
 PhantomLog **only reads**: it never flashes or tunes your car. For flashing and tuning, use Simos.app with your PhantomCAN.
@@ -58,7 +62,7 @@ To check the download, compare its SHA-256 with the one in `SHA256SUMS` on the r
 
 PhantomLog is made by Ghostwerks and is free to use. It is provided as a ready-to-install app on the [Releases](../../releases) page.
 
-Volkswagen, Audi, Android, Bluetooth and the other names used here belong to their owners. This app is not affiliated with or endorsed by them. PhantomLog, PhantomCAN, PhantomDASH and Ghostwerks are names of these products and their maker. Simos.app is a separate product by its own developer. PhantomLog is built to be used alongside it; it is not made, sponsored, endorsed or supported by them.
+Volkswagen, Audi, Android, Bluetooth and the other names used here belong to their owners. This app is not affiliated with or endorsed by them. PhantomLog, PhantomCAN, PhantomDASH and Ghostwerks are names of these products and their maker. Simos.app and Simos Tools are separate products by their own developers. PhantomLog is built to be used alongside Simos.app and opens logs from both; it is not made, sponsored, endorsed or supported by their developers.
 
 PhantomLog is built with [Flutter](https://flutter.dev) and these open-source packages, used under their licences:
 
