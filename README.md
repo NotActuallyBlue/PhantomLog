@@ -10,15 +10,15 @@ Log your engine and transmission, watch live gauges on your phone, look through 
 
 ## What it does
 
-* **Logging.** Records the engine (ECU) and the transmission (TCU) together into one file, with **mode 22** (any car, stock or tuned) or **HSL** (faster; needs a tune with the HSL patch). The app reads the ECU and gearbox codes and picks the matching list for your car.
+* **Logging.** Records the engine (ECU) and the transmission (TCU) together into one file, with **mode 22** (any car, stock or tuned) or **HSL** (faster; needs a tune with the HSL patch). The app reads the ECU and gearbox codes (tuned ECUs included) and picks the matching list for your car: HSL when your software has one, otherwise mode 22. If the car turns HSL down, the app switches to mode 22 by itself.
 * **Up to 25 rows a second.** Engine and transmission are read side by side, so a slow gearbox does not hold the engine back.
-* **Live gauges.** Big, readable gauges with peaks and warning ranges, for when you don't have a PhantomDASH.
+* **Live gauges.** Big, readable gauges with peaks and warning ranges, for when you don't have a PhantomDASH. Choose 4, 6 or 8 and what each one shows; the app keeps them for your car. Pick your turbo (IS20 or IS38, or automatic) on the home screen for the turbo speed warning.
 * **Log viewer.** Charts, split view, scatter, heatmap and a road dyno, right on the phone, in metric or imperial.
 * **Analyze.** Every full-throttle pull side by side: peak power, torque and boost (averaged, so one spike doesn't set the number), the worst knock and its cylinder, lambda against target, fuel pressure against setpoint, and 0–60, 40–80 and 60–100 mph times. The strongest pull is starred. Share it as a picture or copy it as text.
 * **Compare.** Lay a second log over the first, lined up at their first pull, to see what a change did.
 * **Notes.** Add a note to any log (fuel, parts, weather) so you know what changed between two logs.
 * **Your files, your way.** Logs are CSV files in the same layout as Simos.app logs, so the tools you already use open them. Share them straight from the app, or open logs from Simos.app, Simos Tools or your PC with **Open file**.
-* **Remembers your setup.** The app reconnects to your dongle and picks the lists you chose for your car the last time.
+* **Remembers your setup.** The app reconnects to your dongle and picks the lists and gauges you chose for your car the last time.
 * **PhantomDASH settings.** Opens the dash's own settings page inside the app and joins the dash's Wi-Fi by itself (scan the dash's code once).
 
 PhantomLog **only reads**: it never flashes or tunes your car. For flashing and tuning, use Simos.app with your PhantomCAN.
@@ -34,7 +34,7 @@ PhantomLog **only reads**: it never flashes or tunes your car. For flashing and 
 
 ## Install
 
-1. On your phone, open the [latest release](../../releases/latest) and download **PhantomLog-1.0.0.apk**.
+1. On your phone, open the [latest release](../../releases/latest) and download **PhantomLog-1.0.1.apk**.
 2. Open the file. Android asks to allow installs from this source the first time: allow it, then tap **Install**.
 3. Open PhantomLog and allow **Nearby devices** (Bluetooth) when asked.
 
